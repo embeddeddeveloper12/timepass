@@ -2,26 +2,67 @@
 <html>
     <head>
         <title>Practise-01</title>
+        <link href="practicse_css_01.css"> 
+        <style>
+            *{
+                background-color: chocolate;
+            }
+            h1{
+                text-align: center;
+                background-color: black;
+                color: chartreuse;
+            }
+            h1:hover{
+                color:cadetblue;
+                background-color: blanchedalmond;
+                text-align: left;
+            }
+            ol:hover{
+                color: aquamarine;
+                text-align: center;
+            }
+            ul:hover{
+                color: aquamarine;
+                text-align: center;
+                text-decoration: line-through;
+
+            }
+            p:hover{
+               color: aquamarine; 
+               background-color: black;
+               
+            }
+            
+        </style>
     </head>
     <body>
         <h1>Hello World!</h1>
         <hr>
         <p>Hi, This Amarnath Reddy.I am practcing Web Development in that i am doing Frontend Developing practcing HTML which stands for Hyper Text Mark up Language this is my Day-1(21-01-2023) CODE making the producer of maggi and shopping list </p>
-        <hr><h3>Shopping List</h3>
+        <hr>
+        <fieldset>
+            <legend>
+                Shopping List
+            </legend>
+       
         <ul>
             <li>Shampoo</li>
             <li>Face Serum</li>
             <li>Face Wash</li>
             <li>Face Cream</li>
             <li>soaps</li>
-        </ul><hr>
-        <h3>How to maggi</h3>
-        <ol>
-            <li>Boil 200ml of Water</li>
-            <li>add one packet of Maggi</li>
-            <li>After some time add maggi masala to it.<ul><li>Add veges if you required</li></ul></li>
-            <li>Stir it well</li>
-            <li>Ready to Serve.</li>
+        </ul> </fieldset>
+        
+        <hr>
+        <fieldset class="ol">
+        <legend>How to make Maggi</legend>
+        <ol class="ol">
+            <li class="ol">Boil 200ml of Water</li>
+            <li  class="ol">add one packet of Maggi</li>
+            <li class="ol">After some time add maggi masala to it.<ul class="ol"><li class="ol">Add veges if you required</li></ul></li>
+            <li  class="ol">Stir it well</li>
+            <li  class="ol">Ready to Serve.</li>
         </ol>
+    </fieldset>
     </body>
 </html>
